@@ -2,9 +2,9 @@ require "rubygems"
 require 'yaml'
 require 'right_aws'
 
-access_key = ""
-secret_key = ""
-bucket     = ""
+access_key = "AKIAICO274QCIMVFRIPA"
+secret_key = "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"
+bucket     = "petttest"
 s3 = RightAws::S3Interface.new(access_key, secret_key)
 
 headers = {
